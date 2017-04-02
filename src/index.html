@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Compass</title>
     <link rel="manifest" href="manifest.webmanifest">
-
+	<link rel="stylesheet" href="compass.css">
     <!--favicon-->
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 
@@ -39,9 +39,17 @@
 	<meta name="msapplication-square150x150logo" content="images/icons/icon270.png" />
 	<meta name="msapplication-wide310x150logo" content="images/wicons/icon270.png" />
 	<meta name="msapplication-square310x310logo" content="images/icons/icon558.png" />
-
+	
 </head>
 <body>
-    
+<div class="compass">
+	<div class="disc"></div>
+	<div class="arrow">
+		<span class="direction">ne</span>
+		<span class="angle">324</span>
+	</div>
+</div>
+<script src="jquery-3.2.0.js"></script>
+<script src="compass.js"></script>
 </body>
 </html>
