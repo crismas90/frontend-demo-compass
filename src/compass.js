@@ -24,7 +24,7 @@ $(window).on('deviceorientation',function(event){
     rotateCompass(event.alpha);
     setAngle(event.alpha)
             compassElem.css({
-        transform:'rotate3d(1,0,0,'+ (event.beta * -1)  +'deg)'
+        transform:'rotate3d(1,0,0,'+ (event.alpha * -1)  +'deg)'
     })
 })
 
